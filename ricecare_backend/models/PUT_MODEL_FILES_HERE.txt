@@ -1,0 +1,1 @@
+นำ best_rice_model.keras และ class_names.json ที่ดาวน์โหลดจาก Google Colab มาใส่ในโฟลเดอร์นี้
