@@ -26,8 +26,8 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://ricecare-ai.netlify.app",
         "https://icekung11.github.io",
+        "https://ricecare-ai.netlify.app",
     ],
     allow_credentials=False,
     allow_methods=["GET", "POST"],
