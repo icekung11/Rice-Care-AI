@@ -1,6 +1,6 @@
 import './style.css'
 
-const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'
+const API =  "https://rice-care-ai-qx69.onrender.com";
 const names = {
   'Bacterial Blight': 'โรคขอบใบแห้ง',
   'Brown Spot': 'โรคใบจุดสีน้ำตาล',

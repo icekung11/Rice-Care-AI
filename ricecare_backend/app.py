@@ -25,9 +25,9 @@ app = FastAPI(
 # เปลี่ยน allow_origins เป็น URL จริงของ Frontend ก่อน Deploy
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://agent-6ad3845ceb92b5b16fbc1df9--ricecare-ai.netlify.app/"],
     allow_credentials=False,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
