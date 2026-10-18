@@ -1,6 +1,6 @@
 import './style.css'
 
-const API =  "https://rice-care-ai-qx69.onrender.com";
+const API = (import.meta.env.VITE_API_URL || 'https://rice-care-ai-qx69.onrender.com').replace(/\/$/, '')
 const names = {
   'Bacterial Blight': 'โรคขอบใบแห้ง',
   'Brown Spot': 'โรคใบจุดสีน้ำตาล',
